@@ -1,0 +1,129 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  width: 90vw;
+  height: 80vh;
+  margin-left: 4.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ddf2f5;;
+
+  border: 10px solid #7fd8e6;
+  border-radius: 1rem;
+}
+
+.head{
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: .5rem;
+}
+
+.cart{
+  font-size: 1.5rem;
+}
+.item{font-size: 1rem;}
+
+.count{
+  text-align:center;
+  padding-top:.1rem ;
+  width: 5rem;
+  background-color:#17a2b8;
+  color: white;
+  font-size: 1.5rem;
+  border-radius: 18px;
+}
+
+.buttons{
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
+}
+
+.reset{
+  font-size: 1.3rem;
+  text-align: center;
+  padding: .5rem;
+  cursor: pointer;
+    height: 2.5rem;
+    width: 3rem;
+    border-radius: 5px;
+  background-color:#28a745;
+}
+
+.recycle {
+  font-size: 1.2rem;
+text-align: center;
+padding: .5rem;
+  height: 2.5rem; 
+  width: 3rem;
+  border-radius: 5px;
+  background-color: #007bff;
+  cursor: pointer;
+}
+
+.list-item{
+  height: 3.3rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+
+.items-1{
+  padding: .5rem;
+  width: 5rem;
+  font-size: 1.1rem;
+  font-weight: 900;
+  text-align: center;
+  margin-top: 3rem;
+  border-radius: 5px;
+  background-color: #ffc107;
+}
+
+.items-2 {
+  padding: .5rem;
+  width: 3rem;
+  font-size: 1.3rem;
+  text-align: center;
+  color: white;
+  font-style: italic;
+    border-radius: 5px;
+  margin-top: 3rem;
+  background-color: #6c757d;
+  cursor: pointer;
+}
+
+.items-3 {
+  padding: .5rem;
+    width: 3rem;
+    font-size: 1.3rem;
+    text-align: center;
+    color: white;
+    font-style: italic;
+    border-radius: 5px;
+  margin-top: 3rem;
+  background-color: #17a2b8;
+  cursor: pointer;
+}
+
+.items{
+  padding: .5rem;
+    width: 3rem;
+    font-size: 1.3rem;
+    text-align: center;
+    color: white;
+    font-style: italic;
+      border-radius: 5px;
+    margin-top: 3rem;
+      background-color: #dc3545;
+      cursor: pointer;
+}
